@@ -10,7 +10,7 @@ function letterCount
 
 var args = process.argv.slice(2);
 
-var charactersArr = args[0].split("");
+var charactersArr = args[0].replace(/ /g, '').split("");
 var letterCountList = {}
 
 
